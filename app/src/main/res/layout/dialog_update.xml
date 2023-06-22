@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pays" />
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:drawable/editbox_background"
+        android:gravity="top"
+        android:hint="Entrez le nom du pays"
+        android:lines="4"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Capitale" />
+
+    <EditText
+        android:id="@+id/edit_text4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:drawable/editbox_background"
+        android:gravity="top"
+        android:hint="Entrez la capitale"
+        android:lines="4"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Habitants (en millions)" />
+
+    <EditText
+        android:id="@+id/edit_text5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:drawable/editbox_background"
+        android:gravity="top"
+        android:hint="Entrez le nombre d'abitants (en millions)"
+        android:lines="4"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_update"
+        android:text="Mettre à jour"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@color/red"
+        android:layout_marginTop="8dp"/>
+
+
+
+</LinearLayout>

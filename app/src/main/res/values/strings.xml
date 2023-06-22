@@ -1,0 +1,4 @@
+<resources>
+    <string name="toast_message">:)</string>
+    <string name="app_name">Countries</string>
+</resources>
